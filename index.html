@@ -9,6 +9,25 @@
 </head>
 <body>
     <canvas id="screen"></canvas>
+    <form>
+        Number of Items: <input type="text" id="barNums">
+        Sorting Method: <input type="text" list="sorts" id="method">
+        <datalist id="sorts">
+            <option value="Bogo Sort"></option>
+            <option value="Bubble Sort"></option>
+            <option value="Bucket Sort"></option>
+            <option value="Counting Sort"></option>
+            <option value="Heap Sort"></option>
+            <option value="Insertion Sort"></option>
+            <option value="Merge Sort"></option>
+            <option value="Quick Sort"></option>
+            <option value="Radix Sort"></option>
+            <option value="Selection Sort"></option>
+            <option value="Shell Sort"></option>            
+        </datalist>
+        <input type="button" value="Sort" id="submit" onclick="settings();">
+    </form>
+    <input type="button" value="Scramble" id="reset" onclick="reset();">
     <script src="script.js"></script>
 </body>
 </html>

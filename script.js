@@ -1,28 +1,14 @@
-function selectionSort() {
+var canvas = document.getElementById("screen");
+var c = canvas.getContext("2d");
+
+canvas.width = window.innerWidth - 20;
+canvas.height = window.innerHeight - 100;
+
+function bogoSort() {
 
 }
 
-function insertionSort() {
-
-}
-
-function quickSort() {
-
-}
-
-function mergeSort() {
-
-}
-
-function heapSort() {
-
-}
-
-function radixSort() {
-
-}
-
-function shellSort() {
+function bubbleSort() {
 
 }
 
@@ -31,14 +17,34 @@ function bucketSort() {
 }
 
 function countingSort() {
-    
-}
-
-function bubbleSort() {
 
 }
 
-function bogoSort() {
+function heapSort() {
+
+}
+
+function insertionSort() {
+
+}
+
+function mergeSort() {
+
+}
+
+function quickSort() {
+
+}
+
+function radixSort() {
+
+}
+
+function selectionSort() {
+
+}
+
+function shellSort() {
 
 }
 
@@ -50,7 +56,7 @@ function simulate() {
 
 }
 
-function scramble() {
+function reset() {
 
 }
 

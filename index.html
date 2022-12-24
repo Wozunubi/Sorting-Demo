@@ -10,7 +10,7 @@
 <body>
     <canvas id="screen"></canvas>
     <form>
-        Number of Items: <input type="text" id="barNums">
+        Number of Items: <input type="text" autocomplete="off" id="itemNum">
         Sorting Method: <input type="text" list="sorts" id="method">
         <datalist id="sorts">
             <option value="Bogo Sort"></option>
@@ -25,9 +25,8 @@
             <option value="Selection Sort"></option>
             <option value="Shell Sort"></option>            
         </datalist>
-        <input type="button" value="Sort" id="submit" onclick="settings();">
+        <input type="button" value="Sort" id="submit" onclick="scramble();">
     </form>
-    <input type="button" value="Scramble" id="reset" onclick="reset();">
     <script src="script.js"></script>
 </body>
 </html>
